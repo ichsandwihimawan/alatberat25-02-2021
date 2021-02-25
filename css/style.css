@@ -1,0 +1,131 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #fcc61c;
+  position: relative;
+}
+.navbar .navbar-brand {
+  position: relative;
+}
+
+@media (min-width: 767.98px) {
+  .navbar-nav .nav-item .form-inline input {
+    width: 315px;
+    height: 58px;
+    margin-left: 30px;
+  }
+
+  .navbar-nav .nav-item .form-control {
+    width: 400px;
+    height: 58px;
+    margin-left: 40px;
+    margin-right: -15px !important;
+    z-index: 333px;
+  }
+
+  .navbar-nav .nav-item .okes input {
+    width: 315px !important;
+    height: 58px !important;
+    margin-left: 30px;
+  }
+}
+
+.navbar-nav .nav-item .oke {
+  z-index: 300;
+  position: absolute;
+  margin: 45px;
+  padding-left: -30px !important;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item a {
+  color: #002f34;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item button {
+  width: 75px;
+  height: 43px;
+  border-radius: 30px;
+  top: 2px !important;
+  background-color: #23e5db;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid#002f34;
+  margin: auto;
+  margin-bottom: -8px;
+  width: 50%;
+  padding-top: 5px;
+}
+
+.navbar-nav .nav-item .segitiga {
+  position: absolute;
+  margin: 300px;
+  padding-left: -30px !important;
+}
+
+.container .navbar-nav {
+}
+
+.card {
+  width: 263px;
+  height: 320px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 50px !important;
+  margin-bottom: 20px;
+}
+
+.pagination {
+  margin-left: 500px !important;
+}
+
+footer .foot {
+  width: 100%;
+  height: 60px;
+  background-color: #f89f3c;
+  display: flex;
+  justify-content: center;
+}
+
+footer .foot p {
+  font-size: 18px;
+  margin-bottom: -3px !important;
+  margin-top: 30px;
+}
+
+.jumbotron {
+  background-color: #f89f3c;
+}
+
+.pertanyaan .form-group #pertanyaan {
+  /* width: 629px; */
+  height: 154px;
+}
+
+.pertanyaan {
+  position: relative;
+}
+
+.pertanyaan img {
+  position: absolute;
+}
+
+.pertanyaan button {
+  width: 180px;
+  height: 45px;
+  margin-top: 70px;
+  margin-left: 150px;
+}
